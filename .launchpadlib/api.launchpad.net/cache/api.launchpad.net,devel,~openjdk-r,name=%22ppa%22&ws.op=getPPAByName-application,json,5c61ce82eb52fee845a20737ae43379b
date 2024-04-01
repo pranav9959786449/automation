@@ -1,0 +1,22 @@
+status: 200
+date: Sat, 30 Mar 2024 12:20:43 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-request-id: 32c2a18b-a1d0-4a87-893c-6e43bb80f1bb
+content-length: 1369
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~openjdk-r?name=%22ppa%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~openjdk-r/+archive/ubuntu/ppa", "web_link": "https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~openjdk-r", "name": "ppa", "displayname": "OpenJDK builds (all archs)", "reference": "~openjdk-r/ubuntu/ppa", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~openjdk-r/+archive/ubuntu/ppa/dependencies", "description": null, "signing_key_fingerprint": "DA1A4A13543B466853BAF164EB9B1D8886F44E2A", "require_virtualized": false, "build_debug_symbols": true, "publish_debug_symbols": true, "permit_obsolete_series_uploads": false, "authorized_size": 153600, "status": "Active", "external_dependencies": null, "processors_collection_link": "https://api.launchpad.net/devel/~openjdk-r/+archive/ubuntu/ppa/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~openjdk-r/+archive/ubuntu/ppa/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"47131695f29d8e73ac39e0b4e213730be6b2a74b-652a9b9a1f0ff0629fce39c48be33839bf43d750\""}
